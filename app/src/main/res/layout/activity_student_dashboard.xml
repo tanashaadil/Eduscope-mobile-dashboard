@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.learn.eduscope.eduscope.StudentDashboard"
+    android:orientation="vertical">
+    <android.support.v4.widget.DrawerLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/drawer_layout"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/darkcolour"
+
+                android:id="@+id/toolbar"
+                android:gravity="center"
+                android:minHeight="?attr/actionBarSize"
+                >
+
+                <TextView
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white_color"
+                    android:typeface="serif"
+                    android:textStyle="normal|bold"
+                    android:text="Modules"
+                    android:textSize="25dp"/>
+
+
+            </android.support.v7.widget.Toolbar>
+
+            <android.support.design.widget.TabLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:tabBackground="@drawable/tab_switch_color_selector"
+                app:tabIndicatorHeight="0dp"
+                app:itemTextColor="@color/bottom_navigation_button_press_colour_change"
+
+                android:id="@+id/tablayout"
+                android:background="@color/darkcolour"
+                android:minHeight="?attr/actionBarSize"
+                android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+            </android.support.design.widget.TabLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+                    <android.support.v4.view.ViewPager
+                        android:layout_width="match_parent"
+                        android:layout_height="fill_parent"
+                        android:id="@+id/pager">
+
+                    </android.support.v4.view.ViewPager>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+                    <android.support.design.widget.BottomNavigationView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/bottmNavigation"
+                        app:itemIconTint="@color/bottom_navigation_button_press_colour_change"
+                        app:itemTextColor="@color/bottom_navigation_button_press_colour_change"
+                        android:background="@color/darkcolour"
+                        app:menu="@menu/bottom_navigation_drawer"
+                        >
+
+                    </android.support.design.widget.BottomNavigationView>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </android.support.v4.widget.DrawerLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>

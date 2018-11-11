@@ -1,0 +1,130 @@
+{
+  "project_info": {
+    "project_number": "634355141886",
+    "firebase_url": "https://eduscopemobile-c2524.firebaseio.com",
+    "project_id": "eduscopemobile-c2524",
+    "storage_bucket": "eduscopemobile-c2524.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:634355141886:android:473727ad5b45d9b3",
+        "android_client_info": {
+          "package_name": "com.example.mpl_hashainf.eduscopemobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "634355141886-2c2mn3cu573rij2064ougn2lm5677tp7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mpl_hashainf.eduscopemobile",
+            "certificate_hash": "01988433c7a3250725c9f98a8fbd9e320da00cb9"
+          }
+        },
+        {
+          "client_id": "634355141886-8ckru83sho4ktu8eoks7vsl3afmmkv61.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAsBZIklpBAbYx5WWIUCBuAhg_WyW-9gg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "634355141886-8ckru83sho4ktu8eoks7vsl3afmmkv61.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:634355141886:android:23dbf13d81389213",
+        "android_client_info": {
+          "package_name": "com.learn.eduscope.eduscope"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "634355141886-buaj2rghqu70lfrgv6dd6enrlp4701b5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.learn.eduscope.eduscope",
+            "certificate_hash": "01988433c7a3250725c9f98a8fbd9e320da00cb9"
+          }
+        },
+        {
+          "client_id": "634355141886-8ckru83sho4ktu8eoks7vsl3afmmkv61.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAsBZIklpBAbYx5WWIUCBuAhg_WyW-9gg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "634355141886-8ckru83sho4ktu8eoks7vsl3afmmkv61.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:634355141886:android:bbfa9aaa8a46b098",
+        "android_client_info": {
+          "package_name": "com.whiteboard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "634355141886-8ckru83sho4ktu8eoks7vsl3afmmkv61.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAsBZIklpBAbYx5WWIUCBuAhg_WyW-9gg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,211 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darkcolour"
+    tools:context="com.learn.eduscope.eduscope.studentDashboard.scheduleLectures.session">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/card_colour"
+        android:id="@+id/todayoffers_toolbar"
+
+        >
+        <ImageView
+            android:id="@+id/backToOffers"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="left"
+            android:layout_marginRight="15dp"
+            android:src="@drawable/back" />
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white_color"
+            android:typeface="serif"
+            android:textStyle="normal|bold"
+            android:gravity="center"
+            android:text="title"
+            android:id="@+id/title"
+            android:textSize="20dp"
+            />
+
+    </android.support.v7.widget.Toolbar>
+    <ScrollView
+        android:layout_marginTop="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!---->
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:layout_gravity="fill"
+                android:src="@drawable/vedio" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right">
+                <TextView
+                    android:padding="5dp"
+                    android:fontFamily="casual"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="textEnd"
+                    android:text="NO. of views :  147 "
+                    android:textSize="15dp"
+                    android:textColor="@color/text_white"/>
+
+            </LinearLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@color/card_colour"
+                    >
+                    <com.github.mikephil.charting.charts.LineChart
+                    android:id="@+id/chart"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp" />
+
+                    <com.github.mikephil.charting.charts.PieChart
+                        android:id="@+id/chart2"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+            <android.support.v7.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/RecycleList"
+                android:scrollbars="none"
+                >
+
+
+            </android.support.v7.widget.RecyclerView>
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+    <!--<LinearLayout-->
+        <!--android:id="@+id/bottomllayout"-->
+
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:orientation="vertical">-->
+
+
+
+
+        <!--<LinearLayout-->
+            <!--android:paddingLeft="5dp"-->
+            <!--android:paddingRight="5dp"-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="fill_parent"-->
+            <!--android:orientation="vertical"-->
+
+
+            <!--&gt;-->
+            <!--<LinearLayout-->
+                <!--android:layout_width="fill_parent"-->
+                <!--android:layout_height="fill_parent"-->
+                <!--android:orientation="vertical"-->
+                <!--&gt;-->
+                <!--<LinearLayout-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="45dp"-->
+                    <!--android:orientation="vertical"-->
+
+
+                    <!--&gt;-->
+                    <!--<ScrollView-->
+
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="match_parent"-->
+                        <!--android:layout_gravity="bottom"-->
+                        <!--android:scrollbars="none">-->
+
+                        <!--<android.support.v7.widget.RecyclerView-->
+                            <!--android:layout_width="match_parent"-->
+                            <!--android:layout_height="match_parent"-->
+                            <!--android:id="@+id/recycledayselect"-->
+                            <!--android:layout_gravity="bottom">-->
+
+                        <!--</android.support.v7.widget.RecyclerView>-->
+
+
+
+
+                    <!--</ScrollView>-->
+
+                <!--</LinearLayout>-->
+                <!--<LinearLayout-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="fill_parent"-->
+                    <!--android:orientation="vertical"-->
+                    <!--android:layout_marginBottom="5dp"-->
+
+                    <!--&gt;-->
+
+                    <!--<FrameLayout-->
+
+
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="fill_parent"-->
+                        <!--android:id="@+id/Inventorypager"-->
+                        <!--&gt;-->
+
+                    <!--</FrameLayout>-->
+                <!--</LinearLayout>-->
+                <!--&lt;!&ndash;<LinearLayout&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:orientation="vertical"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_weight="1"&ndash;&gt;-->
+
+                <!--&lt;!&ndash;&gt;&ndash;&gt;-->
+                <!--&lt;!&ndash;<ScrollView&ndash;&gt;-->
+
+                <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_height="match_parent"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:scrollbars="none">&ndash;&gt;-->
+
+
+                <!--&lt;!&ndash;<android.support.v7.widget.RecyclerView&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_height="match_parent"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:id="@+id/recycleScheduleofferlist"&ndash;&gt;-->
+                <!--&lt;!&ndash;&gt;&ndash;&gt;-->
+
+                <!--&lt;!&ndash;</android.support.v7.widget.RecyclerView>&ndash;&gt;-->
+
+
+
+
+                <!--&lt;!&ndash;</ScrollView>&ndash;&gt;-->
+
+                <!--&lt;!&ndash;</LinearLayout>&ndash;&gt;-->
+            <!--</LinearLayout>-->
+
+
+
+        <!--</LinearLayout>-->
+
+    <!--</LinearLayout>-->
+
+</FrameLayout>

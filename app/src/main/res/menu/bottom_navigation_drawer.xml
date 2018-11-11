@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--<item
+        android:checkable="true"
+        android:id="@+id/Student"
+        android:enabled="true"
+        android:icon="@drawable/account"
+        android:title="Student Dashboard"
+        app:showAsAction="always"
+        />
+    <item
+        android:checkable="true"
+
+        android:id="@+id/Lecturer"
+        android:enabled="true"
+        android:icon="@drawable/account"
+        android:title="Lecturer Dashboard"
+        app:showAsAction="always"
+        />-->
+
+
+
+</menu>
